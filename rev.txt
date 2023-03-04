@@ -1,0 +1,135 @@
+Using Color
+The 4 main ways to define colors
+*Using color names
+*Using hex values - using hex values eg. #000000
+*Using RGB notation - uses the decimal number system
+-its notation is like: rgb(0,0,255)
+-the values of rgb range from 0 to 255
+-Relates directly to how computers generate color
+
+*Using HSL notation
+-HSL stands for hue, saturation & lightness
+-Organizes color in a way of color wheel
+
+Advantages of color names:
+*Easy to use and remember
+*Works very well with basic colors
+
+Disadvantages of color names
+*Only 16 color names are validated by CSS and HTML
+*It is dificult to modify color
+*Color names are subjective
+*Color names are hard to match 
+
+Advantages of hex values
+*Bigger colour pallette(16 million)
+*Colors are objective and precise
+*Flexibility as in can easily change the tint of color
+
+Disadvatages of hex values
+*cryptic to learn at first
+
+NB:All number based coloring systems have same advntg & disadvtg as hex
+
+Characteristics of HSL Notation
+Hue - The basic color in the color wheel
+ *Color wheel is broken into a series of hues
+ *The range is from 0 to 360
+
+Saturation - richness of the color in percentage
+ *reducing all saturation, image becomes gray-scale
+
+Lightness - amount of light in the color
+
+Color Theory Schemes
+*Use mathematical relations and color wheel to determine colors that work well
+
+Basic color schemes
+*Monochromatic 
+-Use single base color and a number of variations of shade
+-Nice when emphasizing one color
+*Complementary
+-Use the opposite of the base color for contast and the base color itself
+*Analogous
+-Use the base hue and its two neighbors in the color wheel
+*Acented analogous
+-Uses the analogous and complementary color scheme
+*Triad
+-Uses colors that are evenly spaced around color wheel
+*Tetrad
+-The scheme uses four hues
+
+
+Working with CSS
+
+The three levels of applying css
+*Local styles: defined by specifying s style within html element
+-Useful for converting MsWord to HTML
+-Useful when quickly testing a style on a particular element
+-Have high priority than the other levels of applying css
+-Any style that is put locally will override any similar style put in the other levels
+
+Disadvantage of Local style
+*Inefficiency - only style an element at a time
+*Readability - mixing css and html in one page makes it difficult to read
+*Lack of separation - no separation of content and style
+*Quote problems - Both html and css require quotes hence difficulty reading
+
+
+*Page-level styles: defined in the page's header area
+-Ideal for development purposes
+-Becoz browsers don't cache page level styles like in external styles
+
+*External styles: defined on a separate document, linked to html
+-saved as a .css file extension
+
+Advntgs of External style sheets
+*One style sheet can control many pages
+*Global changes are easier 
+- one change in a place is automatically propagated to all pages
+*Separation of content and design
+*Easy upgrades 
+-One can easily change the site without messing with indiidusl html files
+
+Block and Inline Elements
+-Every html element has a default display styling
+-It is either block or inline 
+
+
+Characteristics of Block elements
+*Always start on a new line
+*Take up the full with as possible, they stretch out
+Examples of block level elements include: <div>,<h1>,<h6>,<p>
+
+
+Characteristics of inline elements
+*Do not start on a new line
+*Only take as much space as necessary
+Examples are <span>, <a>, <img>
+
+Page Layout
+*The most common technique for most applications is floating layout
+
+Floating Layout
+*This technique keeps the html layout as simple as possible
+*Tells various elements how to interact with each other
+*Provide hints to the elements and browser manages everything
+*Ensures flexibility bcoz browser will try to follow the intentions no matter its size
+*If user resizes browser, page flexes to fit new size and shape
+
+Using CSS float property
+Each div in this example above 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
