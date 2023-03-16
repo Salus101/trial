@@ -118,7 +118,27 @@ Floating Layout
 *If user resizes browser, page flexes to fit new size and shape
 
 Using CSS float property
-Each div in this example above 
+Each div in this example above
+
+Week 8: Javascript, Html, css
+
+HTML,CSS, Javascript
+*Javascript's role = make websites more interactive
+*Web browsers support Javacript through built in engines without need of additional plugins
+*Javascript can either be inline(within the html doc) or external separate file
+  
+Inline Javascript
+
+*Using <script> element Javascript can added to html doc
+*The <script> element can be places anywhere in the HTML document
+*It can be placed in the head, body or after the body tag
+*Where you place the <script> element will depend on when you want your javascript to Load
+*Placing the Js code inside the head tag separate it from the html markup
+*If want script to run at a certain point within pg's layout, then you shouls put it at the point where it should be called
+*Js should be placed after the body tag if it is large and will slow down page load time
+
+External Js
+
 
 
 
